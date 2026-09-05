@@ -759,7 +759,7 @@ def github_qsl_filename(callsign_only, archive_stamp):
     clean = tr_normalize(raw).lower()
     safe = re.sub(r"[^a-z0-9._-]+", "_", clean)
     safe = safe.strip("._-") or "unknown"
-    return f"qsl/{archive_stamp}_{safe}.jpg"
+    return f"qsl/{archive_stamp[:8]}/{archive_stamp}_{safe}.jpg"
 
 
 def get_qsl_public_url(callsign_only, archive_stamp=None, expires_in=None):
