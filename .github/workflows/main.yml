@@ -1,0 +1,16 @@
+name: QSL Kartları
+
+on:
+  workflow_dispatch:
+
+jobs:
+  qsl:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Depoyu indir
+        uses: actions/checkout@v4
+
+      - name: QSL klasörünü hazırla
+        run: |
+          mkdir -p qsl
