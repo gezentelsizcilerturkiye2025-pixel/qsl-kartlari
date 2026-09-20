@@ -1,0 +1,17 @@
+{
+  "event_id": "TEST/2026-09-20",
+  "date": "2026-09-20",
+  "start": "17:00:00",
+  "end": "17:30:00",
+  "created_at": "2026-09-20T21:54:52.450928",
+  "participants": [
+    {
+      "callsign": "TA2TTL",
+      "name": "Deniz Ertürk (TEST)",
+      "added_at": "2026-09-20T21:54:52.451030"
+    }
+  ],
+  "qsl_cards": [],
+  "total_downloads": 0,
+  "unique_downloads": 0
+}
